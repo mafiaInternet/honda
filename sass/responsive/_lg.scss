@@ -1,0 +1,68 @@
+#navbar{
+    @media screen and (max-width:  1024px){
+        a{
+            padding: $pd-2 $pd-2;
+        }
+        a:first-child{
+            padding: 0;
+        }
+        #navbar-menu{
+            .nav-item{
+                .nav-link{
+                    padding: $pd-2 $pd-2;
+                }
+            }
+        }
+    }
+}
+
+#swiper-slider{
+    @media screen and(max-width: 1024px) {
+        height: 850px;
+    }
+}
+
+#shopping{
+   @media screen and (max-width: 1024px){
+    top: 600px;
+    text-align: center;
+    .shopping-container{
+        display: block; 
+
+        .shopping-car{
+        
+            justify-content: center;  
+            align-items: center;
+            .shopping-img{
+                width: 500px;
+            }
+        }
+    }
+   }
+}
+
+#OurVehicle{
+    @media screen and (max-width: 1024px){
+        .owl-nav{
+            display: block;
+            .owl-prev{
+                position: absolute;
+                left: 0;
+                bottom: -5px;
+                font-size: 33px;
+            }
+            .owl-next{
+                position: absolute;
+                right: 0;
+                bottom: -5px;
+            }
+            .owl-next, .owl-prev{
+                font-size: 30px;
+                outline: none;
+            }
+        }
+    }
+}
+
+
+

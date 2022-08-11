@@ -1,0 +1,39 @@
+#search-file{
+    padding: 0 $pd-6;
+    background-color: $color-white;
+    border: $border-2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    div{
+        padding: $pd-1 0;
+        width: 90%;
+        border-right: $border-2;
+        i{
+            color: $color-blue-200;
+            font-size: $font-size-2;
+            transform: translateY(-3px);
+        }
+        input{
+            width: 85%;
+            border: none;
+            height: 4.5rem;
+            background-color: transparent;
+            font-size: $font-size-3;
+            font-weight: 300;
+            color: $color-blue-200;
+            outline: none;
+            &:focus{
+                border: none;
+            }
+        }
+    }
+    .back-to-top{
+        flex-grow: 1;
+        font-size: $font-size-1;
+        color: $color-blue-200;
+        cursor: pointer;
+        text-align: right;
+       margin: 0;
+    }
+}

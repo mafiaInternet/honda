@@ -1,0 +1,43 @@
+#vehicles-future{
+    width: 90%;
+    margin: auto;
+    padding-top: 60px;
+
+    .future-info{
+        text-align: center;
+        transform: translateY(125%);
+        color: $color-white;
+        h3{
+            font-weight: $font-weight-bold;
+            
+        }
+        p{
+            font-size: $font-size-1;
+            margin: $mg-2 - 5px 0;
+        }
+        button{
+            background-color: $color-blue-200;
+            color: $color-white;
+            
+        }
+        
+        
+    }
+    .future-left{
+        button{
+            transform: translateY(560%);
+        }
+    }
+    .future-right{
+        width: 90%;
+        margin: auto;
+    }
+    .future-1, .future-2{
+        &:hover{
+            button{
+             background-color: transparent;
+             color: $color-blue-200;
+            }
+         }
+    }
+}

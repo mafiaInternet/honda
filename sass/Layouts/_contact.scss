@@ -1,0 +1,96 @@
+#logo-white{
+    width: 96%;
+    margin: auto;
+    padding: 20px 0;
+    border-top: 2px solid $color-dark-blue-100;
+    text-align: center; 
+    a{ 
+        img{
+            width: 138px;
+            margin: auto;
+            
+        }
+    }
+}
+#contact{
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    margin: auto;
+    border-top: 1px solid $color-grey-1;
+    border-bottom: 1px solid $color-grey-1;
+    padding: 25px 0;
+    .contact-touch{
+        h5{
+            
+            padding-bottom: 7px;
+        }
+        a{  
+            margin-right: 10px;
+            i{
+                color: $color-white;
+                width: 25px;
+                height: 25px;
+                line-height: 25px;
+                text-align: center;
+                font-size: $font-size-1;
+                background-color: $color-blue-200;
+                border-radius: 50%;
+            }
+        }
+    }
+    .contact-search{
+        width: 33%;
+        height: 23%;
+        background-color: $color-white;
+        box-shadow: inset 2px 2px 5px 0 rgba(0, 0, 0, 0.15);
+        
+        border-radius: 30px;
+        text-align: center;
+        text-align: center;
+        i{
+            color: $color-blue-200;
+            margin-left: 20px;
+            
+        }
+        input{
+            width: 77%;
+            border: none;
+            background-color: transparent;
+            font-size: $font-size-1;
+            font-weight: 300;
+            color: $color-blue-200;
+            outline: none;
+            padding: 11px 0 9px 45px;
+            &:focus{
+                border: none;
+            }
+            &::placeholder{
+                color: $color-blue-200;
+                font-weight: $font-weight-bold;
+                font-size: $font-size-1;
+            }
+        }
+        button{
+            background-color: $color-blue-100;
+            color: $color-white;
+            border-color: $color-blue-100;
+            padding: 2px 15px;
+            text-align: right;
+            margin-bottom: 6px;
+            &:hover{
+                background-color: $color-white;
+                color: $color-blue-100;
+            }
+            
+        }
+    }
+    .contact-informed{
+        text-align: right;
+        p{
+            color: $color-dark-blue-200;
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+#vehicles-card{
+    width: 94%;
+    margin: auto;
+   padding-top: 250px ;
+    .function{
+        box-shadow: 0 5px 10px 0 rgba(8, 29, 42, 0.2);
+        text-align: center;
+        align-items: center;
+       position: relative;
+       margin: 10px 0;
+       div{
+        position: absolute;
+    
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-size: $font-size-1;
+        
+        h3{
+            color: $color-dark-blue-200;
+            font-weight: $font-weight-bold;
+            margin: 20px 0;
+        }
+       
+        button{
+            background-color: $color-blue-100;
+            border-color: $color-blue-100;
+            color: $color-white;
+            padding: .375rem 2.75rem;
+        }
+       }
+       &:hover{
+        transform: translateY(-20px);
+        transition: all 0.5s;
+        div{
+            
+            button{
+                background-color: transparent;
+                color: $color-blue-100;
+            }
+        }
+    
+    
+}
+    }
+}

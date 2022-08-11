@@ -1,0 +1,24 @@
+#footer-link{
+    .footer-container{
+        width: 98%;
+        margin: auto;
+        .footer-detail{
+            padding: 30px 25px 60px;
+            h5{
+                color: $color-dark-blue-100;
+               
+            }
+            ul{
+                list-style: none;
+                padding: 0;
+                li{
+                    padding:5px 0;
+                    a{
+                       
+                       color: $color-dark-blue-100;
+                    }
+                }
+            }
+        }
+    }
+}

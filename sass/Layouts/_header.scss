@@ -1,0 +1,104 @@
+
+#header{
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:10;
+	width: 100%;
+}
+.navbar{
+    padding: 0;
+}
+
+#navbar{
+    background-color: $color-blue-100;
+   
+    a{
+        color: $color-white;
+        padding: $pd-3 $pd-4;
+        border-right: $border-1;
+      
+       font-size: $font-size-1;
+       cursor: pointer;
+       &:hover{
+        text-decoration: none;
+    }
+    }
+    a:first-child{
+        padding: 0 $pd-4;
+    }
+    
+    #navbar-menu{
+        .nav-item .nav-link{
+            padding: $pd-3 $pd-4;
+            border: none;
+        }
+        .nav-link.english{
+            border-right: $border-1;
+            border-left: $border-1;
+        }
+    }
+
+    .discovers-menu{
+        left: unset;
+        right: -30%;
+        padding: $pd-4;
+        width: 40rem;
+        border: none;
+        box-shadow: $box-shadow;
+        .dropdown-detail{
+            display: flex;
+            text-align: left;
+           padding:0 $pd-3;
+           
+            ul{
+                list-style: none;
+                padding: 0 ;
+                li{
+                    margin-bottom: 10px;
+                    a{
+                        text-decoration: none;
+                        color: $color-blue-200;
+                        border: none;
+                        padding: 0;
+                        font-weight: $font-weight-bold;
+                        font-size: $font-size-1;
+                    }
+                }
+            }
+            .dropdown-detail-left{
+                width: 50%;
+            }
+            .dropdown-detail-right{
+                width: 50%;
+            }
+        }
+        .dropdown-item{
+            padding-top: $pd-3;
+            background-color: white!important;
+            
+            i{
+                display: inline-block;
+                background-color: $color-blue-100;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                color: white;
+                border-radius: 50%;
+                margin-right: $mg-1 + 5;
+            }
+        }
+        &::before{
+            content: "";
+            border-bottom: 15px solid white;
+            border-right: 15px solid transparent;
+            border-left: 15px solid transparent;
+            position: absolute;
+            top: -15px;
+            left: unset;
+            right: 15%;
+        }
+    }
+
+}

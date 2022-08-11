@@ -1,0 +1,54 @@
+#shopping{
+   
+    width: 100%;
+    background-color: $color-white;
+    .shopping-container{   
+        display: flex;
+        padding: 20px 0;
+        justify-content: center;
+        text-align: center;
+   
+        .shopping-title{
+            text-align: center;
+            transform: translateY(10%);
+            h5{
+                font-size: $font-size-5;
+                font-weight: 350;
+                transform: translateY(10%);
+                margin-bottom: 1.6rem;
+                
+            }
+            p{
+                font-size: $font-size-1;
+            }
+        }
+        .shopping-car{
+            display: flex;
+           .shopping-img{
+            margin-left: 20px;
+            width: 300px;
+           }
+            .shopping-price{
+                text-align: left;
+                transform: translateY(30%);
+                span{
+                    font-size: $font-size-1;
+                    font-weight: $font-weight-bold;
+                    color: $color-dark-blue-200;
+                }
+                p{
+                    font-size: $font-size-1;
+                    color: $color-dark-blue-200;
+                }
+                .shopping-button{
+                    button{
+                        font-size: 1.1rem;
+                        padding: 0 10px;
+                    }
+                }
+            }
+        }
+       
+        
+    }
+}

@@ -1,0 +1,222 @@
+#vehicles-intro{
+ 
+    
+    #intro{
+       
+        height: 250px;
+        background-color: $color-dark-blue-200;
+        .intro-content{
+            padding-top: 20px;
+            top: 20px;
+            height: 350px;
+            width: 90%;
+            margin: auto;
+            position: relative;
+            .intro-left{
+                background-image: url("../../img/our-vehicle-intro-1.jpg");
+                text-align: center;
+                font-size: $font-size-1;
+             .intro-info{
+                position: absolute;
+                top: 50%;
+                right: 50%;
+                transform: translateX(50%);
+                width: 60%;
+                button{
+                    background-color: $color-blue-200;
+                    color: white;
+                    padding: $pd-1 $pd-2;
+                    border-radius: 40px;
+                    margin: 40px 0;
+                }
+             }
+             &:hover{
+                button{
+                    background-color: transparent;
+                        color: $color-blue-200;
+                }
+             }
+    
+            }
+            .intro-right{
+                background-image: url("../../img/our-vehicles-intro-2.jpg");
+                text-align: center;
+                .intro-info{
+                    position: absolute;
+                    top: 50%;
+                    right: 50%;
+                    transform: translateX(50%);
+                    
+                   width: 80%;
+                    button{
+                        background-color: $color-blue-200;
+                        color: white;
+                        padding: $pd-1 $pd-2;
+                        border-radius: 40px;
+                        margin: 16px 0;
+                        
+                    }
+                   
+                 }
+                 &:hover{
+                    button{
+                        background-color: transparent;
+                            color: $color-blue-200;
+                    }
+                 }
+            }
+            .intro-left, .intro-right{
+                height: 380px;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-clip: content-box;
+                color: $color-white;
+                p{
+                    margin-bottom: $mg-3;
+                }
+            }
+        }
+    }
+    
+    #OurVehicle{
+      
+        height: 600px;
+        margin: 220px 0;
+        width: 100%;
+        background-color: $color-grey;
+        h2{
+            text-align: center;
+            font-size: 60px;
+            font-weight: 300;
+            padding-bottom: 50px;
+        }
+        #carousel-slider{
+            height: 100%;
+            .carousel-indicators-config{
+                
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+                width: 80%;
+                margin: auto;
+                position: relative;
+                padding-right: 40px;
+                li{
+                    color: $color-dark-blue-100;
+                    font-weight: $font-weight-bold;
+                    font-size: 16px;               
+                    cursor: pointer;
+                    padding: 6px 15px;
+                    border-radius: 30px;
+                    text-align: center;
+                }
+                li.active{
+                    
+                    color: $color-white;
+                    background-color: $color-blue-100;
+                    display: flex;
+                    justify-content: center;
+                    &::before{
+                        content: '';
+                        border-top: 15px solid #fff;
+                        border-left: 15px solid transparent;
+                        border-right: 15px solid transparent;
+                        position: absolute;
+                        bottom: -35px;
+                        z-index: 9;
+                    }
+                }
+    
+                
+            }
+    
+            .carousel-inner{
+                padding-top: $pd-3;
+                height: 100%;
+                .carousel-item{
+                    height: 95%;
+                    position: relative;
+                    .carousel-config{
+                        position: absolute;
+                        width: 30%;
+                        top: 10%;
+                        left: 4%;
+                        font-size: $font-size-1;
+                        color: $color-white;
+                        p:first-child{
+                            font-weight: $font-weight-bold;
+                            span{
+                                font-weight: $font-weight-normal;
+                            }
+                        }
+                        p{
+                            font-weight: $font-weight-300;
+                        }
+                        .price-car{
+                            margin-bottom: 30px;
+                            p{
+                                font-size: $font-size-5 ;
+                                font-weight: $font-weight-300;
+                                margin-bottom: 0;
+                            }
+                            span{
+                                font-weight: $font-weight-bold;
+                            }
+                        }
+                        .btn-vehicles{
+                            background-color: transparent;
+                            &:hover{
+                                background-color: $color-white;
+                                color: $color-blue-100;
+                            }
+                        }
+                        
+                    }
+                   .carousel-footer{
+                    position: absolute;
+                    bottom: 0;
+                    width: 50%;
+                    height: 14%;
+                    border-top:0.15em solid white ;
+                    align-items: center!important;
+                    a{
+                        text-align: center;
+                        align-items: center;
+                        font-weight: $font-weight-bold;
+                        color: $color-white;
+                        font-size: $font-size-1;
+                    }
+                   }
+                }
+            }
+            .carousel-control-prev, .carousel-control-next{
+               width: 0;
+          
+                i{
+                    padding: 15px 10px;
+                    font-size: 25px;
+                    background-color: $color-blue-100;
+                   
+                }
+            }
+            
+            .carousel-control-prev{
+                left: 0%;
+                i{
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                }
+            }
+            .carousel-control-next{
+                right: 0%;
+                i{
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                }
+            }
+        }
+        
+    }
+    
+}

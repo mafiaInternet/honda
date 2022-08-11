@@ -1,0 +1,157 @@
+#navbar{
+
+    @media screen and (max-width: 768px) {
+        justify-content: flex-start;
+       
+    a{
+        padding: $pd-1 $pd-2;
+        border-left: $border-1;
+    }
+    a:first-child{
+        padding: $pd-1 $pd-2;
+    }
+
+    #navbar-menu{
+        border-top: 1px solid $color-white;
+        .nav-item{
+            .nav-link{
+                padding: $pd-2;
+            }
+        }
+    }
+    }
+    
+}
+
+
+#OurVehicle{
+    @media screen and(max-width:768px) {
+        margin: 0;
+        h2{
+            text-align: center;
+            font-size: 40px;
+            font-weight: 300;
+            padding: 15px 0;
+        }
+    }
+   @media screen and(max-width: 768px) {
+    #carousel-slider{
+        @media screen and(max-width: 768px) {
+            .carousel-indicators-config{
+                
+                list-style: none;
+                display: flex;
+                justify-content: space-around;
+                width: 94%;
+                margin: auto;
+                li{
+                    color: $color-dark-blue-100;
+                    font-weight: $font-weight-bold;
+                    font-size: 12px;               
+                    cursor: pointer;
+                    padding: 6px 15px;
+                    border-radius: 30px;
+                }
+            }
+        }
+        @media screen and (max-width: 768px) {
+            .carousel-inner{
+                .carousel-item{
+                    .carousel-config{
+                        width: 50%;
+                        left: 26%;
+                        p{
+                            text-align: center;
+                        }
+                        .vehicles-button{
+                            text-align: center;
+                        }
+                    }
+                    .carousel-footer{
+                        width: 100%;
+                        a{
+                            text-align: center;
+                        }
+                    }
+                }
+             }
+         }
+        }
+   }
+   
+}
+
+#vehicles-intro{
+    // @media screen and(max-width: 768px) {
+    //     display: table;
+    //     #intro{
+    //         display: table-footer-group;
+    //     }
+    //     #OurVehicle{
+    //         display: table-header-group;
+    //     }
+    // }
+
+    @media screen and(max-width: 768px) {
+        #OurVehicle{
+            
+            @media screen and(max-width:768px) {
+                margin: 0;
+                h2{
+                    text-align: center;
+                    font-size: 40px;
+                    font-weight: 300;
+                    padding: 15px 0;
+                }
+            }
+           @media screen and(max-width: 768px) {
+            #carousel-slider{
+                @media screen and(max-width: 768px) {
+                    .carousel-indicators-config{
+                        
+                        list-style: none;
+                        display: flex;
+                        justify-content: space-around;
+                        width: 94%;
+                        margin: auto;
+                        li{
+                            color: $color-dark-blue-100;
+                            font-weight: $font-weight-bold;
+                            font-size: 12px;               
+                            cursor: pointer;
+                            padding: 6px 15px;
+                            border-radius: 30px;
+                        }
+                    }
+                }
+                @media screen and (max-width: 768px) {
+                    .carousel-inner{
+                        .carousel-item{
+                            .carousel-config{
+                                width: 50%;
+                                left: 26%;
+                                p{
+                                    text-align: center;
+                                }
+                                .vehicles-button{
+                                    text-align: center;
+                                }
+                            }
+                            .carousel-footer{
+                                width: 100%;
+                                a{
+                                    text-align: center;
+                                }
+                            }
+                        }
+                     }
+                 }
+                }
+           }
+           
+        }
+     }
+
+}
+
+    

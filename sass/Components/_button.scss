@@ -1,0 +1,26 @@
+@mixin button($border, $bg, $color, $font-size, $font-weight, $pd, $bg-hover, $color-hover){
+    background: $bg;
+    border: $border;
+    border-radius: 40px;
+    color: $color;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    padding: $pd;
+    &:hover{
+        background-color: $bg-hover;
+        color: $color-hover;
+    }
+}
+
+.btn-vehicles{
+    @include button ($border-4, $color-white, $color-blue-200, $font-size-1, $font-weight-bold, $pd-1 $pd-5, $color-blue-200, $color-white);
+    margin-right: $mg-1; 
+   
+}
+
+.btn-carousel{
+    @include button ($border-5, $color-orange, $color-white, $font-size-1, $font-weight-bold, $pd-1 $pd-2, $color-white, $color-orange);
+    margin-right: $mg-1;
+}
+
+

@@ -1,0 +1,78 @@
+// #intro{
+    
+//     height: 250px;
+//     background-color: $color-dark-blue-200;
+//     .intro-content{
+//         padding-top: 20px;
+//         top: 20px;
+//         height: 350px;
+//         width: 90%;
+//         margin: auto;
+//         position: relative;
+//         .intro-left{
+//             background-image: url("../../img/our-vehicle-intro-1.jpg");
+//             text-align: center;
+//             font-size: $font-size-1;
+//          .intro-info{
+//             position: absolute;
+//             top: 50%;
+//             right: 50%;
+//             transform: translateX(50%);
+//             width: 60%;
+//             button{
+//                 background-color: $color-blue-200;
+//                 color: white;
+//                 padding: $pd-1 $pd-2;
+//                 border-radius: 40px;
+//                 margin: 40px 0;
+//             }
+//          }
+//          &:hover{
+//             button{
+//                 background-color: transparent;
+//                     color: $color-blue-200;
+//             }
+//          }
+
+//         }
+//         .intro-right{
+//             background-image: url("../../img/our-vehicles-intro-2.jpg");
+//             text-align: center;
+//             .intro-info{
+//                 position: absolute;
+//                 top: 50%;
+//                 right: 50%;
+//                 transform: translateX(50%);
+                
+//                width: 80%;
+//                 button{
+//                     background-color: $color-blue-200;
+//                     color: white;
+//                     padding: $pd-1 $pd-2;
+//                     border-radius: 40px;
+//                     margin: 16px 0;
+                    
+//                 }
+               
+//              }
+//              &:hover{
+//                 button{
+//                     background-color: transparent;
+//                         color: $color-blue-200;
+//                 }
+//              }
+//         }
+//         .intro-left, .intro-right{
+//             height: 380px;
+//             background-position: center;
+//             background-size: cover;
+//             background-repeat: no-repeat;
+//             background-clip: content-box;
+//             color: $color-white;
+//             p{
+//                 margin-bottom: $mg-3;
+//             }
+//         }
+//     }
+// }
+
