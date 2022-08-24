@@ -82,17 +82,23 @@
 }
 
 #vehicles-intro{
-    // @media screen and(max-width: 768px) {
-    //     display: table;
-    //     #intro{
-    //         display: table-footer-group;
-    //     }
-    //     #OurVehicle{
-    //         display: table-header-group;
-    //     }
-    // }
+
 
     @media screen and(max-width: 768px) {
+        display: flex;
+        flex-direction: column-reverse;
+        #intro{
+            height: 800px;
+            background-color: transparent;
+            padding: 20px 0;
+            margin: 20px 0;
+           .intro-content{
+            height: 100%;
+            .intro-left, .intro-right{
+                padding: 15px 0;
+            }
+           }
+        }
         #OurVehicle{
             
             @media screen and(max-width:768px) {
@@ -154,4 +160,67 @@
 
 }
 
+#vehicles-card{
     
+    @media screen and(max-width:768px) {
+        padding-top: 30px;
+       width: 92%;
+    }
+}
+
+#vehicles-future{
+    @media screen and(max-width: 768px) {
+        width: 96%;
+        .future-1, .future-2{
+            margin: $mg-2 $mg-2;
+        }
+    }
+    
+}
+
+#discover-honda{
+    @media screen and(max-width: 768px) {
+        width: 40%;
+        
+    }
+}
+ 
+
+#contact{
+    @media screen and (max-width: 768px) {
+        display: flex;
+        flex-direction: column-reverse;
+        border: none;
+        text-align: center;
+        .contact-touch{
+           
+            h5{
+                display: none;
+            }
+        }
+        .contact-informed{
+            text-align: center;
+            margin-bottom: $mg-2;
+            button{
+                padding: $pd-1 $pd-7;
+            }
+        }
+    }
+}
+#footer{
+   @media screen and(max-width: 768px) {
+    .copy-footer{
+        display: block;
+        .copy-left-footer{
+            width: 100%;
+            p:first-child{
+                text-align: center;
+            }
+        }
+        .copy-right-footer{
+           margin: auto;
+
+        }
+    }
+   }
+}

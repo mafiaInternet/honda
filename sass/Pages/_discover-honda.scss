@@ -5,7 +5,12 @@
     .discover-title{
         text-align: center;
         h2{
-            font-size: 6.5rem;
+            font-size: $font-size-5;
+            color: $color-dark-blue-100;
+            font-weight: 300;
+        }
+        p{
+            font-size: $font-size-1;
             color: $color-dark-blue-100;
             font-weight: 300;
         }
@@ -19,21 +24,30 @@
             box-shadow: 0 5px 10px 0 rgba(8, 29, 42, 0.08);
             .card-body{
                 text-align: center;
-                padding: 3.25rem 1.25rem;
+                padding: 1rem 1.25rem 3rem 1.25rem;
                 h3{
                     font-weight: $font-weight-bold;
                     color: $color-dark-blue-200;
+                    font-size: $font-size-1;
                 }
                 p{
-                    font-size: $font-size-1;
+                    font-size: $font-size-7;
                     margin: 20px 0;
                 }
-                a{
-                    font-size: $font-size-1;
-                    color: $color-blue-200;
+                button{
+                    font-size: $font-size-7;
+                    color: $color-white;
                     font-weight: $font-weight-bold;
+                    padding: $pd-1 $pd-2;
+                    background-color: $color-blue-200;
+                    &:hover{
+                        color: $color-blue-200;
+                        background-color: transparent;
+                    }
+
                 }
             }
+           
         }
     }
     .envents{

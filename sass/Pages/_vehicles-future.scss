@@ -1,7 +1,7 @@
 #vehicles-future{
     width: 90%;
     margin: auto;
-    padding-top: 60px;
+    padding-top: $pd-6 + 10;
 
     .future-info{
         text-align: center;
@@ -9,16 +9,15 @@
         color: $color-white;
         h3{
             font-weight: $font-weight-bold;
+           
             
         }
-        p{
-            font-size: $font-size-1;
-            margin: $mg-2 - 5px 0;
-        }
+       
         button{
             background-color: $color-blue-200;
             color: $color-white;
-            
+            font-size: $font-size-6;
+            padding: $pd-1 $pd-2;
         }
         
         
@@ -29,8 +28,13 @@
         }
     }
     .future-right{
-        width: 90%;
+        width: 85%;
         margin: auto;
+        p{
+         
+            font-size: $font-size-6;
+            margin: $mg-2 - 5px 0;
+        }
     }
     .future-1, .future-2{
         &:hover{

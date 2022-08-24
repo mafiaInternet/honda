@@ -1,16 +1,15 @@
 #vehicles-card{
-    width: 94%;
+    width: 96%;
     margin: auto;
-   padding-top: 250px ;
+   
     .function{
+        position: relative;
         box-shadow: 0 5px 10px 0 rgba(8, 29, 42, 0.2);
         text-align: center;
         align-items: center;
-       position: relative;
-       margin: 10px 0;
+        margin: 10px 0;
        div{
         position: absolute;
-    
         top: 50%;
         left: 50%;
         transform: translateX(-50%);

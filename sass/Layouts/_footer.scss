@@ -16,14 +16,15 @@
         display: flex;
         justify-content: space-between;
         .copy-left-footer{
-            width: 45%;
+            width: 50%;
            p:first-child{
                 text-align: left;
            }
         }
+        
         .copy-right-footer{
             text-align: right;
-            width: 27%;
+            width: 420px;
             a{
                 color: $color-white;
                 font-size: 13px;
